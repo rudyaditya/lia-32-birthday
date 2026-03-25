@@ -111,7 +111,7 @@ function App() {
       {/* Audio Player */}
       <audio
         ref={audioRef}
-        src="/birthday-song.mp3"
+        src={`${import.meta.env.BASE_URL}birthday-song.mp3`}
         loop
         playsInline
       ></audio>
